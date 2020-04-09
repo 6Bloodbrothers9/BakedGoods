@@ -1,0 +1,61 @@
+
+
+
+*{
+    
+    box-sizing: border-box;
+    overflow: none;
+    padding:0;
+    margin:0;
+}
+
+html,
+.body {
+    background-color: #daab28;
+   
+}
+
+
+
+.main-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #daab28;
+           
+}
+            
+
+.image-container {
+    width:100vw;
+    background-color: #daab28;
+    text-align: center;
+}
+
+.image-desktop {
+    width:100%
+}
+
+.image-mobile {
+    width:100%;
+    height:auto;
+    
+}
+
+
+
+@media screen and (orientation:portrait) {
+    .desktop-holding-image {
+        display:none;
+    }
+    /* Portrait styles */
+}
+
+@media screen and (orientation:landscape) {
+    .mobile-holding-image {
+        display:none;
+    
+    }
+    /* Landscape styles */
+}
