@@ -12,7 +12,10 @@
     padding-bottom: 20px;
 }
 
-
+/* content shows behind nav on top so adding padding to whole body */
+body{
+    padding:10%;
+}
 
 @media screen and (min-width: 768px) {
     #disappearHome {
@@ -113,6 +116,7 @@
 
 .navbar-nav .nav-item-about a:hover { color: #F1E6B2 !important; }
 
+
 /* Journal Nav Styling */
 .navbar-journal {
     background-color:#CB6015;
@@ -120,8 +124,15 @@
 
 #journalBody {
     background-color: #CB6015;
+    height:100vh;
 }
-
+div.journalTextRight{
+    color:#F1E6B2 !important;
+    font-size:1em;
+}
+img.journalImage:hover{
+    opacity:0.7;
+}
 .nav-link-journal {
     color:#003B49;
 }
