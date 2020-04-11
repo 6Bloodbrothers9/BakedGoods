@@ -1,0 +1,103 @@
+#navBrandLogo {
+    display:none;
+}
+
+.navbar {
+    background-color:#daab28;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #disappearHome {
+        display:none;
+    }
+}
+
+#navListLogo {
+    padding:0px 80px 0px 80px;
+}
+
+@media screen and (max-width: 768px) {
+    #navListLogo {
+        display:none;
+    }
+}
+
+.home-landing-image {
+    width:100%;
+    height:auto;
+}
+
+.landing-image-container {
+    margin-top:80px;
+    background-color: #daab28;
+}
+
+
+/* Index Nav Styling */
+.navbar-index {
+    background-color:#daab28;
+}
+
+#indexBody {
+    background-color: #daab28;
+}
+
+.nav-link-index {
+    color:#007377;
+}
+
+/* Contact Nav Styling */
+#contactBody {
+    background-color: #003B49;
+}
+
+.nav-link-contact {
+    color:#CB6015;
+}
+
+.navbar-contact {
+    background-color:#003B49;
+}
+
+/* Articles Nav Styling */
+.navbar-articles {
+    background-color:#F1E6B2;
+}
+
+#articlesBody {
+    background-color: #F1E6B2;
+}
+
+.nav-link-articles {
+    color:#003B49;
+}
+
+/* about Nav Styling */
+.navbar-about {
+    background-color:#007377;
+}
+
+#aboutBody {
+    background-color: #007377;
+}
+
+.nav-link-about {
+    color:#daab28;
+}
+
+/* Journal Nav Styling */
+.navbar-journal {
+    background-color:#CB6015;
+}
+
+#journalBody {
+    background-color: #CB6015;
+}
+
+.nav-link-journal {
+    color:#003B49;
+}
