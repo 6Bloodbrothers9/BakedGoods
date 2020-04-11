@@ -1,9 +1,9 @@
-#navBrandLogo {
+.navBrandLogoHide {
     display:none;
 }
 
 .navbar {
-    background-color:#daab28;
+    
     padding-top: 20px;
     padding-bottom: 20px;
 }
