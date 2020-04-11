@@ -2,6 +2,10 @@
     display:none;
 }
 
+.navbar-toggler {
+    outline: 0 !important;
+}
+
 .navbar {
     
     padding-top: 20px;
@@ -14,6 +18,15 @@
     #disappearHome {
         display:none;
     }
+
+    .nav-item1-shift {
+        margin-right:40px ;
+    }
+    
+    .nav-item4-shift {
+        margin-left:40px ;
+    }
+
 }
 
 #navListLogo {
@@ -24,6 +37,8 @@
     #navListLogo {
         display:none;
     }
+
+    
 }
 
 .home-landing-image {
@@ -50,6 +65,9 @@
     color:#007377;
 }
 
+.navbar-nav .nav-item-index a:hover { color: #F1E6B2 !important; }
+
+
 /* Contact Nav Styling */
 #contactBody {
     background-color: #003B49;
@@ -62,6 +80,8 @@
 .navbar-contact {
     background-color:#003B49;
 }
+
+.navbar-nav .nav-item-contact a:hover { color: #F1E6B2 !important; }
 
 /* Articles Nav Styling */
 .navbar-articles {
@@ -76,6 +96,8 @@
     color:#003B49;
 }
 
+.navbar-nav .nav-item-articles a:hover { color: #CB6015 !important; }
+
 /* about Nav Styling */
 .navbar-about {
     background-color:#007377;
@@ -89,6 +111,8 @@
     color:#daab28;
 }
 
+.navbar-nav .nav-item-about a:hover { color: #F1E6B2 !important; }
+
 /* Journal Nav Styling */
 .navbar-journal {
     background-color:#CB6015;
@@ -101,3 +125,5 @@
 .nav-link-journal {
     color:#003B49;
 }
+
+.navbar-nav .nav-item-journal a:hover { color: #F1E6B2 !important; }
