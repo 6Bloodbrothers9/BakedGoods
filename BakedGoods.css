@@ -124,8 +124,11 @@ body{
 }
 /* Contact styling */
 .submitButton{
-    background-color: #CB6015;
+    background-color: #CB6015 !important;
     color:#F1E6B2;
+}
+.underForm{
+    color:#CB6015!important;
 }
 .contactLabel{
     color:#CB6015;

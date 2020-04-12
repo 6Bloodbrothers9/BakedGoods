@@ -1,6 +1,7 @@
 <?php
 /*
  *  CONFIGURE EVERYTHING HERE
+ *  BloodBrothers 12/04/2020
  */
 
 // an email address that will be in the From field of the email.
