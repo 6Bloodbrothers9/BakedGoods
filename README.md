@@ -19,3 +19,9 @@ Alex 12/04
 Im gonna push it to your branch so that you can keep working with the most updated css stylesheet and avoid conflicts down the line.
 
 
+
+
+
+
+Jason 12/04
+# added opacity 0.8 on hover on the nav elements - to indicate to the user that the nav logo is also a clickable

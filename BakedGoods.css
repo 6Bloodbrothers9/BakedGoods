@@ -104,6 +104,7 @@ body{
 }
 .navbar-nav .nav-item-index a:hover { 
     color: #F1E6B2 !important; 
+    opacity:0.8;
 }
 
 
@@ -119,6 +120,7 @@ body{
 }
 .navbar-nav .nav-item-contact a:hover { 
     color: #F1E6B2 !important; 
+    opacity:0.8;
 }
 
 /* Articles Nav Styling */
@@ -133,6 +135,7 @@ body{
 }
 .navbar-nav .nav-item-articles a:hover { 
     color: #CB6015 !important; 
+    opacity:0.8;
 }
 
 /* about Nav Styling */
@@ -147,6 +150,7 @@ body{
 }
 .navbar-nav .nav-item-about a:hover { 
     color: #F1E6B2 !important; 
+    opacity:0.8;
 }
 
 
@@ -161,6 +165,7 @@ body{
 div.journalTextRight{
     color:#F1E6B2 !important;
     font-size:1em;
+    opacity:0.6;
 }
 img.journalImage:hover{
     opacity:0.7;
@@ -170,4 +175,5 @@ img.journalImage:hover{
 }
 .navbar-nav .nav-item-journal a:hover { 
     color: #F1E6B2 !important; 
+    opacity:0.8;
 }
