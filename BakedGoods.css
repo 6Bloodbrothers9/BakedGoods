@@ -42,7 +42,7 @@ div.landingPage{
 }
 /* content shows behind nav on top so adding padding to whole body */
 body{
-    padding:10%;
+    padding:8%;
 }
 
 
@@ -183,4 +183,15 @@ img.journalImage:hover{
 .navbar-nav .nav-item-journal a:hover { 
     color: #F1E6B2 !important; 
     opacity:0.8;
+}
+
+/*about page stylings*/
+.about-container {
+    background-color:#007377;
+    
+}
+.about-text{    
+    color:#F1E6B2;
+    font-family: 'manropelight';
+    font-size: large;
 }
