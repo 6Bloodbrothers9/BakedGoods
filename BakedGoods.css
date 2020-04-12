@@ -122,7 +122,14 @@ body{
     color: #F1E6B2 !important; 
     opacity:0.8;
 }
-
+/* Contact styling */
+.submitButton{
+    background-color: #CB6015;
+    color:#F1E6B2;
+}
+.contactLabel{
+    color:#CB6015;
+}
 /* Articles Nav Styling */
 .navbar-articles {
     background-color:#F1E6B2;

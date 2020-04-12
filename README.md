@@ -25,3 +25,7 @@ Im gonna push it to your branch so that you can keep working with the most updat
 
 Jason 12/04
 # added opacity 0.8 on hover on the nav elements - to indicate to the user that the nav logo is also a clickable
+
+# contact form
+    I used a new template so I had to copy some php script and include some javascript code from there to handle page refreshing on the submit event. We may need to do some tweaking to it when we have it live on the host server. I am busy installing a php handler on my local machine to see if the script behaves.
+    
