@@ -12,4 +12,10 @@ let me know what you want to do with the landing page as I animated the text. If
 
 # the text on the image needs sizing for small screens as it extends over the image (11/04)
 
+Alex 12/04
+# I rearranged the stylesheet so that all of the nav stylings are together in one place with comments. Just before out code takes off and it becomes a shitstorm.
+
+# I fixed the bugs on the nav while was in here 
+Im gonna push it to your branch so that you can keep working with the most updated css stylesheet and avoid conflicts down the line.
+
 

@@ -36,6 +36,18 @@ p#typeSlow{
     left: 50%;
     transform: translate(-50%, -30%);
   }
+
+div.landingPage{
+    height:100%;
+}
+/* content shows behind nav on top so adding padding to whole body */
+body{
+    padding:10%;
+}
+
+
+
+/*Global Navbar Stylings*/
 .navBrandLogoHide {
     display:none;
 }
@@ -49,19 +61,18 @@ p#typeSlow{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-div.landingPage{
-    height:100%;
-}
-/* content shows behind nav on top so adding padding to whole body */
-body{
-    padding:10%;
-}
 
+#navListLogo {
+    padding:0px 80px 0px 80px;
+}
+/*Global styling for Navbar for large screens*/
 @media screen and (min-width: 768px) {
+/*makes the link with writing "Home" disappear on large screens so that brand logo serves as hlink to index page*/
     #disappearHome {
         display:none;
     }
 
+/*shifts the outer nav links away from the inner nav links on large screens*/
     .nav-item1-shift {
         margin-right:40px ;
     }
@@ -72,96 +83,77 @@ body{
 
 }
 
-#navListLogo {
-    padding:0px 80px 0px 80px;
-}
 
+
+/*Global styling for Navbar for small screens*/
+/*removes the brand logo from the nav list, the logo will now serve as the collapse button. Home link will be in the collapsed menu*/
 @media screen and (max-width: 768px) {
     #navListLogo {
         display:none;
     }
-
-    
 }
-
-.home-landing-image {
-    width:100%;
-    height:auto;
-}
-
-.landing-image-container {
-    margin-top:80px;
-    background-color: #daab28;
-}
-
-
 /* Index Nav Styling */
 .navbar-index {
     background-color:#daab28;
 }
-
 #indexBody {
     background-color: #daab28;
 }
-
 .nav-link-index {
     color:#007377;
 }
-
-.navbar-nav .nav-item-index a:hover { color: #F1E6B2 !important; }
+.navbar-nav .nav-item-index a:hover { 
+    color: #F1E6B2 !important; 
+}
 
 
 /* Contact Nav Styling */
 #contactBody {
     background-color: #003B49;
 }
-
 .nav-link-contact {
     color:#CB6015;
 }
-
 .navbar-contact {
     background-color:#003B49;
 }
-
-.navbar-nav .nav-item-contact a:hover { color: #F1E6B2 !important; }
+.navbar-nav .nav-item-contact a:hover { 
+    color: #F1E6B2 !important; 
+}
 
 /* Articles Nav Styling */
 .navbar-articles {
     background-color:#F1E6B2;
 }
-
 #articlesBody {
     background-color: #F1E6B2;
 }
-
 .nav-link-articles {
     color:#003B49;
 }
-
-.navbar-nav .nav-item-articles a:hover { color: #CB6015 !important; }
+.navbar-nav .nav-item-articles a:hover { 
+    color: #CB6015 !important; 
+}
 
 /* about Nav Styling */
 .navbar-about {
     background-color:#007377;
 }
-
 #aboutBody {
     background-color: #007377;
 }
-
 .nav-link-about {
     color:#daab28;
 }
-
-.navbar-nav .nav-item-about a:hover { color: #F1E6B2 !important; }
+.navbar-nav .nav-item-about a:hover { 
+    color: #F1E6B2 !important; 
+}
 
 
 /* Journal Nav Styling */
 .navbar-journal {
     background-color:#CB6015;
 }
-
 #journalBody {
     background-color: #CB6015;
     height:100vh;
@@ -176,5 +168,6 @@ img.journalImage:hover{
 .nav-link-journal {
     color:#003B49;
 }
-
-.navbar-nav .nav-item-journal a:hover { color: #F1E6B2 !important; }
+.navbar-nav .nav-item-journal a:hover { 
+    color: #F1E6B2 !important; 
+}
