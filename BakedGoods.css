@@ -23,6 +23,9 @@ html{
 }
 .landingImage{
     opacity:0.4;
+    height:80vh;
+    width:100%;
+    object-fit: cover;
 }
 p#typeSlow{
     z-index:+1;
@@ -42,7 +45,7 @@ div.landingPage{
 }
 /* content shows behind nav on top so adding padding to whole body */
 body{
-    padding:8%;
+    padding:90px;
 }
 
 
@@ -148,6 +151,15 @@ body{
     opacity:0.8;
 }
 
+div.articleTextRight{
+    color:#003B49 !important;
+    font-size:1em;
+    opacity:0.6;
+}
+img.articleImage:hover{
+    opacity:0.7;
+}
+
 /* about Nav Styling */
 .navbar-about {
     background-color:#007377;
@@ -162,6 +174,7 @@ body{
     color: #F1E6B2 !important; 
     opacity:0.8;
 }
+
 
 
 /* Journal Nav Styling */
@@ -198,3 +211,4 @@ img.journalImage:hover{
     font-family: 'manropelight';
     font-size: large;
 }
+
