@@ -50,6 +50,7 @@ body{
 
 
 
+
 /*Global Navbar Stylings*/
 .navBrandLogoHide {
     display:none;
@@ -157,7 +158,76 @@ div.articleTextRight{
     opacity:0.6;
 }
 img.articleImage:hover{
-    opacity:0.7;
+    opacity:1;
+}
+
+.article-image-container{
+    width:100%;
+    background-color: #F1E6B2;
+    
+    
+}
+
+.article-text-container{
+    height:200px;
+    width:100%;
+    background-color: #F1E6B2;
+    margin-top:-10px;
+}
+
+.article-h1{
+    font-size: x-large;
+}
+
+.article-h2{
+    font-size: large;
+}
+.article-p{
+    font-size: large;
+}
+
+.articleRow {
+    padding-bottom:40px;
+}
+@media screen and (max-width: 768px) {
+    .article-h1 {
+        font-size: large;
+        text-align: center;
+    }
+    .article-h2 {
+        font-size: small;
+        text-align: center;
+    }
+    .article-p {
+        font-size: small;
+        text-align: center;
+    }
+    .articleRow {
+        height: 90vh;
+    }
+
+    .article-text-container{
+        height:400px;
+    }
+    
+    .articleImage {
+        opacity:1;
+    }
+}
+.container-fluid{
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+.articlesMainContainer{
+    background-color: #F1E6B2
+}
+
+.articleImage{
+    height:28vh;
+    width: 100%;
+    object-fit: scale-down;
+    margin-top: -15px;
+    opacity:0.6;
 }
 
 /* about Nav Styling */
