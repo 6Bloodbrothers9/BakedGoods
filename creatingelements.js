@@ -1,5 +1,5 @@
 // assume we have the following:
-// Array = [[Name1, Desc1, Details1, Image1], [Name1, Desc1, Details1, Image1]]
+// Array = [[Name1, Desc1, Details1, Image1], [Name2, Desc2, Details2, Image2]]
 // You have an existing html container element called "projectsContainer"
 
 for(var i=0; i <= Array.length; i++){
