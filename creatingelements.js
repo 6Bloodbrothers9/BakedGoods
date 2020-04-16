@@ -38,14 +38,14 @@ for(var i=0; i <= Array.length; i++){
         let projectDesc = document.createElement('h3');
         projectDesc.class ='';
         projectDesc.textContent = array[i][1]
-//append projectHeader to the textDiv
-        textDiv.appendChild(projectHeader)
+//append projectDesc to the textDiv
+        textDiv.appendChild(projectDesc)
 //create an <p> inside the textDiv
         let projectDetails = document.createElement('p');
         projectDetails.class ='';
         projectDetails.textContent = array[i][1]
-//append projectHeader to the textDiv
-        textDiv.appendChild(projectHeader)                                                          
+//append projectDetails to the textDiv
+        textDiv.appendChild(projectDetails)                                                          
 
 //append the textDiv container to the divRow
     divRow.appendChild(textDiv);
