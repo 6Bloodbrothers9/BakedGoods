@@ -40,7 +40,7 @@ var csvArr = Papa.parse('test1.csv', {
 //assign class names to be used on containers and elements		
 		tempTextContainer.className = 'container pull-right float-right col-4 col-lg-4 col-sm-12';
 		tempImgContainer.className = 'pull-left float-left col-8 col-lg-8 col-sm-12'
-		tempImg.className = 'img-fluid';
+		tempImg.className = 'journalImage img-fluid';
 		temp.className = 'row';
 //assign image source and place project text		
 		tempImg.src = `images/${useResults[i][2]}`;
