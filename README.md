@@ -38,3 +38,5 @@ Baked Goods Designs website for Nate Holmes
     added in the styling of the corresponding page to be used
     added in word document for editing of csv file
 
+# Jason 20/04
+    I tested the contact form on my local mamp php server and we may need to use my original php mailer and make some tweaks to it as the one used for this form exits to a blank page with only text on it.
